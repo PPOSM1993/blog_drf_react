@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <header className="navbar-dark bg-dark navbar-sticky header-static">
+        <header className="navbar-light bg-light navbar-sticky header-static">
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
                     <Link className="navbar-brand" to="/">
-                        <img className="navbar-brand-item dark-mode-item" src="https://i.postimg.cc/ZRNC1mhM/my-main-logo.png" style={{ width: "200px" }} alt="logo" />
+                        <img className="navbar-brand-item dark-mode-item" src="/logo.jpeg" style={{ width: "200px" }} alt="Logo" />
                     </Link>
                     <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="h6 d-none d-sm-inline-block text-white">Menu</span>
