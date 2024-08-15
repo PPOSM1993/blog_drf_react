@@ -42,7 +42,7 @@ function App() {
             <Route path='/notifications' element={<CreatePassword />} />
             <Route path='/dashboard' element={<Dashboard />} />
             <Route path='/posts' element={<Posts />} />
-            <Route path='/add_post' element={<AddPost />} />
+            <Route path='/add-post' element={<AddPost />} />
             <Route path='/edit_post' element={<EditPost />} />
             <Route path='/profile' element={<Profile />} />
             <Route path='/comments' element={<Comments />} />
