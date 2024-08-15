@@ -32,6 +32,20 @@ function App() {
             <Route path='/detail' element={<Detail />} />
             <Route path='/search' element={<Search />} />
             <Route path='/category' element={<Category />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/register' element={<Register />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/logout' element={<Logout />} />
+            <Route path='/notifications' element={<Notifications />} />
+            <Route path='/forgot_password' element={<ForgotPassword />} />
+            <Route path='/notifications' element={<CreatePassword />} />
+            <Route path='/dashboard' element={<Dashboard />} />
+            <Route path='/posts' element={<Posts />} />
+            <Route path='/add_post' element={<AddPost />} />
+            <Route path='/edit_post' element={<EditPost />} />
+            <Route path='/profile' element={<Profile />} />
+            <Route path='/comments' element={<Comments />} />
           </Routes>
         </BrowserRouter>
     </MainWrapper>
